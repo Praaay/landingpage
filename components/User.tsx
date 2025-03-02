@@ -47,7 +47,7 @@ export default function User() {
                 <p className="text-sm text-gray-500">{testimonial.role}</p>
               </div>
             </div>
-            <p className="mt-4 text-gray-700 italic">"{testimonial.quote}"</p>
+            <p className="mt-4 text-gray-700 italic">&quot;{testimonial.quote}&quot;</p>
             <p className="mt-4 text-blue-500 font-semibold cursor-pointer">Read more →</p>
             <div className="absolute top-0 right-4 text-3xl text-blue-400">“</div>
             <div className="absolute bottom-[-10px] left-4 w-full h-2 bg-pink-200 rounded-xl"></div>

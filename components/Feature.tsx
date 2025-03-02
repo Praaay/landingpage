@@ -61,7 +61,7 @@ export default function Feature() {
                       <span className="text-yellow-400">name: string</span>) {"{"}
                     </p>
                     <p className="text-sm font-mono pl-4">
-                      console.log('Hi ' + name);
+                      console.log(&apos;Hi &apos; + name);
                     </p>
                     <p className="text-sm font-mono">{"}"}</p>
                   </div>
@@ -96,7 +96,7 @@ export default function Feature() {
                       <span className="text-yellow-400">name: string</span>) {"{"}
                     </p>
                     <p className="text-sm font-mono pl-4">
-                      console.log('Hi ' + name);
+                      console.log(&apos;Hi &apos; + name);
                     </p>
                     <p className="text-sm font-mono">{"}"}</p>
                   </div>

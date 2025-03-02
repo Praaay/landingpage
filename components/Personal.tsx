@@ -2,7 +2,7 @@
 import { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { motion, AnimatePresence } from "framer-motion";
+
 
 export default function About() {
   // Captions for video animation
@@ -39,16 +39,16 @@ export default function About() {
         <div className="max-w-lg">
           <h2 className="text-3xl font-bold text-gray-900">About me</h2>
           <p className="mt-4 text-gray-700">
-            Hey, my name is Dominik and I'm the founder of snappify! 👋
+            Hey, my name is Dominik and I&apos;m the founder of snappify! 👋
           </p>
           <p className="mt-2 text-gray-700">
             My goal with snappify is to enable you to easily create technical
             presentations with smooth animations.
           </p>
           <p className="mt-2 text-gray-700">
-            Doesn't matter if you create code explanations on social media,
+            Doesn&apos;t matter if you create code explanations on social media,
             technical presentations for your company, or smoothly animated
-            videos - I hope you'll find snappify a valuable companion.
+            videos - I hope you&apos;ll find snappify a valuable companion.
           </p>
         </div>
       </div>
@@ -65,7 +65,7 @@ export default function About() {
             href="/get-started"
             className="mt-4 inline-block bg-purple-600 hover:bg-purple-700 text-white font-semibold py-3 px-6 rounded-lg text-lg"
           >
-            Get started - It's free
+            Get started - It&apos;s free
           </Link>
         </div>
 

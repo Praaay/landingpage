@@ -65,46 +65,7 @@ export default function Hero() {
           text: "Customize themes & fonts ✨",
           code: `theme = "yellow"`,
         },
-      ];
-
-      const codeSlides = [
-  {
-    id: 1,
-    language: "JavaScript",
-    bgColor: "bg-gray-900",
-    code: `function add(a, b) {
-  return a + b;
-}
-
-console.log(add(2, 3));`,
-  },
-  {
-    id: 2,
-    language: "Python",
-    bgColor: "bg-gray-900",
-    code: `def add(a, b):
-    return a + b
-
-print(add(2, 3))`,
-  },
-  {
-    id: 3,
-    language: "Go",
-    bgColor: "bg-gray-900",
-    code: `package main
-
-import "fmt"
-
-func add(a, b int) int {
-    return a + b
-}
-
-func main() {
-    fmt.Println(add(2, 3))
-}`,
-  },
-];
-    
+      ];    
       const [currentSlide, setCurrentSlide] = useState(0);
       const [copySuccess, setCopySuccess] = useState(false);
 
@@ -144,13 +105,13 @@ func main() {
             <span className="text-gray-700"> - Experimental Video Export 🎥</span>
           </div>
           <p className="text-gray-700 font-bold text-3xl leading-relaxed max-w-lg">
-            Take your Code Presentations to the next level with snappify's powerful animation features.
+            Take your Code Presentations to the next level with snappify&apos;s powerful animation features.
           </p>
 
   {/* Buttons adjusted for mobile */}
   <div className="mt-6 flex flex-col sm:flex-row gap-4 items-center">
     <Link href="/get-started" className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg text-lg">
-      Get started – It's free
+      Get started – It&apos;s free
     </Link>
     <Link href="/templates" className="border border-blue-500 text-blue-500 hover:bg-blue-50 font-semibold py-3 px-6 rounded-lg text-lg">
       View Templates
@@ -249,7 +210,7 @@ func main() {
         <motion.div initial={{ opacity: 0, y: 50 }} animate={textControls1} transition={{ duration: 0.8, ease: "easeOut" }} className="max-w-lg">
           <h2 className="text-3xl font-bold text-gray-900">Elevate your Technical Content</h2>
           <p className="mt-4 text-gray-700">
-            You're a developer, looking to create <span className="font-bold">visually engaging</span> infographics for social media?
+            You&apos;re a developer, looking to create <span className="font-bold">visually engaging</span> infographics for social media?
           </p>
           <p className="mt-2 text-gray-700">
             Use snappify to create stunning visuals of your technical concepts, that will <span className="font-bold">engage your followers</span> and take your social media presence to the next level.
@@ -319,14 +280,14 @@ greet();`}
             snappify enables you to <span className="font-bold">embed your visuals</span> in a way that your viewers can easily copy code snippets or texts.
           </p>
           <p className="mt-2 text-gray-700">
-            It's the perfect way to bring your blog to life or spice up your internal company documentation using rich infographics.
+            It&apos;s the perfect way to bring your blog to life or spice up your internal company documentation using rich infographics.
           </p>
           <Link href="#" className="mt-4 inline-block text-gray-600 font-semibold underline hover:text-black">
             Learn More →
           </Link>
           <div className="mt-6 p-4 border-2 border-orange-400 bg-orange-50 rounded-lg text-lg">
             <p className="text-gray-800">
-              🌈 With <span className="font-bold">support for popular platforms</span> like Hashnode, Notion, and Medium, we ensure that your infographics look great, no matter where they're posted!
+              🌈 With <span className="font-bold">support for popular platforms</span> like Hashnode, Notion, and Medium, we ensure that your infographics look great, no matter where they&apos;re posted!
             </p>
           </div>
 
